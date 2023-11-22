@@ -1,0 +1,18 @@
+.site {
+  background-color: rgb(30 38 43);
+  color: rgb(207 198 172);
+  overflow: hidden;
+  display: flex;
+  height: 100vh;
+}
+
+.site-left {
+  width: 400px;
+}
+
+.site-right {
+  width: calc(100vw - 400px);
+  background-color: rgb(40 50 57);
+  position: relative;
+  overflow-x: hidden;
+}

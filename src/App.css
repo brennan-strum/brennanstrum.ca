@@ -1,0 +1,38 @@
+a {
+  color: #cfc6ac;
+  text-decoration: none;
+  font-size: 18px;
+
+  &:hover {
+    color: #fff;
+  }
+}
+
+.page {
+  position: absolute;
+  left: 0;
+  right: 0;
+  transform: translateX(0);
+}
+
+.page-enter {
+  opacity: 1;
+  transform: translateX(-100vw);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translateX(0vw);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: translateX(100vw);
+  transition: opacity 300ms, transform 300ms;
+}

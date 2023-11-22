@@ -1,0 +1,46 @@
+.logoWrapper {
+  padding-left: 70px;
+  .logo {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    position: relative;
+
+    height: 270px;
+    width: 170px;
+
+    .firstLetter {
+      font-size: 200px;
+      position: absolute;
+      top: -20px;
+      left: 0px;
+    }
+
+    .firstName {
+      position: absolute;
+      font-size: 40px;
+      top: 54px;
+      left: 114px;
+    }
+
+    .secondLetter {
+      font-size: 200px;
+      position: absolute;
+      top: 60px;
+      left: 55px;
+    }
+
+    .secondName {
+      position: absolute;
+      font-size: 40px;
+      top: 145px;
+      left: 153px;
+    }
+
+    .title {
+      position: absolute;
+      font-size: 20px;
+      top: 240px;
+      left: 185px;
+      width: 140px;
+    }
+  }
+}
